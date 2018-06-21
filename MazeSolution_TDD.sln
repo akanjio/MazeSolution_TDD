@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeSolution_TDD", "MazeSolution_TDD\MazeSolution_TDD.csproj", "{4C50BFDC-8BD9-4C34-B4C7-707C40ADA833}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeUnitTest", "UnitTestProject1\MazeUnitTest.csproj", "{77735B58-4E79-4D30-8F4B-E77EDEF08A32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C50BFDC-8BD9-4C34-B4C7-707C40ADA833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C50BFDC-8BD9-4C34-B4C7-707C40ADA833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C50BFDC-8BD9-4C34-B4C7-707C40ADA833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C50BFDC-8BD9-4C34-B4C7-707C40ADA833}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77735B58-4E79-4D30-8F4B-E77EDEF08A32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77735B58-4E79-4D30-8F4B-E77EDEF08A32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77735B58-4E79-4D30-8F4B-E77EDEF08A32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77735B58-4E79-4D30-8F4B-E77EDEF08A32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
