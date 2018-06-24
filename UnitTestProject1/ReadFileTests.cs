@@ -41,48 +41,28 @@ namespace ReadFileTests
             string[] expected1 = { "5", "6" };
             //int expected2 = 6;
             int pos = 0;
-            var mazeDimension = MazeSolution_TDD.Program.GetMazeDimension(readFile, pos);
+            var mazeDimension = MazeSolution_TDD.Program.GetMazeDimensions(readFile, pos);
             // values used to compare expected and actual values in Assert
             Assert.AreEqual(mazeDimension[0], expected1[0]);
             Assert.AreEqual(mazeDimension[1], expected1[1]);
         }
 
         [TestMethod]
-        public void HasMazeBeenBuilt()
+        public void DoesLoadFileWork()
         {
-            string[] expected1 = { "#", "#", "#", "#", "#" };
-            string[] expected2 = { "#", " ", "#", " ", "#" };
-            string[] actual1 = new string[5];
-            string[] actual2 = new string[5];
+            //directory path to the maze file
+            string filePath = "C:\\Users\\Lolu\\Documents\\Visual Studio 2017\\Projects\\MazeSolution_TDD\\asamkl.txt";
 
-            int pos = 3;
-            var mazeGrid = MazeSolution_TDD.Program.BuildMaze(readFile, gridWidth, gridHeight, pos);
-            for (int i = 0; i < 5; i++)
-            {
-                actual1[i] = mazeGrid[i, 0];
-                actual2[i] = mazeGrid[i, 3];
-            }
-            //Assert.AreEqual(actual[1], expected1[1]);
-            Assert.IsTrue(actual1.SequenceEqual(expected1));
-            Assert.IsTrue(actual2.SequenceEqual(expected2));
+            // values used to compare expected & actual in assert
+            string[] actual = null;
+            string[] expected = null;
+
+            actual = MazeSolution_TDD.Program.LoadFile(filePath);
+
+            //assert: make a statement about what the expected result should be
+            Assert.AreEqual(expected, actual);
+
         }
-
-        //[TestMethod]
-        //public void DoesLoadFileWork()
-        //{
-        //    //directory path to the maze file
-        //    string filePath = "C:\\Users\\Lolu\\Documents\\Visual Studio 2017\\Projects\\MazeSolution_TDD\\small.txt";
-
-        //    // values used to compare expected & actual in assert
-        //    string[] actual = null;
-        //    string[] expected = null;
-
-        //    actual = Maze.Program.LoadFile(filePath);
-
-        //    //assert: make a statement about what the expected result should be
-        //    Assert.AreEqual(expected, actual);
-
-        //}
 
         [TestMethod]
         public void IsFileEmpty()
@@ -120,6 +100,74 @@ namespace ReadFileTests
             Assert.IsTrue(actual.SequenceEqual(expected));
             Assert.AreEqual(actual2, expected2);
 
+        }
+
+        [TestMethod]
+        public void ContainsMultipleLines()
+        {
+            //directory path to the maze file
+            string filePath = "C:\\Users\\Lolu\\Documents\\Visual Studio 2017\\Projects\\MazeSolution_TDD\\small.txt";
+
+            // values used to compare expected & actual in assert
+            string[] actual = null;
+            int expected = 3;
+
+            actual = MazeSolution_TDD.Program.LoadFile(filePath);
+            //assert: make a statement about what the expected result should be
+            Assert.IsTrue(actual.Length > expected);
+        }
+
+        [TestMethod]
+        public void HasStartPositionBeenRead()
+        {
+            // values used to compare expected and actual values in Assert
+            int actual1 = 1;
+            int actual2 = 1;
+            //Act: Perform the action on the function and get a result
+            var result = MazeSolution_TDD.Program.GetStartPosition(readFile, 1);
+            startPositionX = Convert.ToInt32(result[0]);
+            startPositionY = Convert.ToInt32(result[1]);
+
+            //Assert: Make a statement about what the expected result should be
+            Assert.AreEqual(startPositionX, actual1);
+            Assert.AreEqual(startPositionY, actual2);
+        }
+
+        [TestMethod]
+        public void HasEndPositionBeenRead()
+        {
+            // values used to compare expected and actual values in Assert
+            int actual1 = 3;
+            int actual2 = 4;
+
+            //Act: Perform the action on the function and get a result
+            var result = MazeSolution_TDD.Program.GetEndPosition(readFile, 2);
+            endPositionX = Convert.ToInt32(result[0]);
+            endPositionY = Convert.ToInt32(result[1]);
+
+            //Assert: Make a statement about what the expected result should be
+            Assert.AreEqual(endPositionX, actual1);
+            Assert.AreEqual(endPositionY, actual2);
+        }
+
+        [TestMethod]
+        public void HasMazeBeenBuilt()
+        {
+            string[] expected1 = { "#", "#", "#", "#", "#" };
+            string[] expected2 = { "#", " ", "#", " ", "#" };
+            string[] actual1 = new string[5];
+            string[] actual2 = new string[5];
+
+           // int pos = 3;
+            var mazeGrid = MazeSolution_TDD.Program.BuildMaze(readFile, gridWidth, gridHeight);
+            for (int i = 0; i < 5; i++)
+            {
+                actual1[i] = mazeGrid[i, 0];
+                actual2[i] = mazeGrid[i, 3];
+            }
+            //Assert.AreEqual(actual[1], expected1[1]);
+            Assert.IsTrue(actual1.SequenceEqual(expected1));
+            Assert.IsTrue(actual2.SequenceEqual(expected2));
         }
 
     }

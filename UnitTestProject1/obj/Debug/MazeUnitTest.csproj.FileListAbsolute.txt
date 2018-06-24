@@ -1,0 +1,15 @@
+C:\Users\Lolu\Documents\Visual Studio 2017\Projects\MazeSolution_TDD\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Lolu\Documents\Visual Studio 2017\Projects\MazeSolution_TDD\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Lolu\Documents\Visual Studio 2017\Projects\MazeSolution_TDD\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Lolu\Documents\Visual Studio 2017\Projects\MazeSolution_TDD\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+C:\Users\Lolu\Documents\Visual Studio 2017\Projects\MazeSolution_TDD\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+C:\Users\Lolu\Documents\Visual Studio 2017\Projects\MazeSolution_TDD\UnitTestProject1\bin\Debug\MazeSolution_TDD.exe
+C:\Users\Lolu\Documents\Visual Studio 2017\Projects\MazeSolution_TDD\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Lolu\Documents\Visual Studio 2017\Projects\MazeSolution_TDD\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Lolu\Documents\Visual Studio 2017\Projects\MazeSolution_TDD\UnitTestProject1\bin\Debug\MazeSolution_TDD.pdb
+C:\Users\Lolu\Documents\Visual Studio 2017\Projects\MazeSolution_TDD\UnitTestProject1\bin\Debug\MazeSolution_TDD.exe.config
+C:\Users\Lolu\Documents\Visual Studio 2017\Projects\MazeSolution_TDD\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Lolu\Documents\Visual Studio 2017\Projects\MazeSolution_TDD\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Lolu\Documents\Visual Studio 2017\Projects\MazeSolution_TDD\UnitTestProject1\obj\Debug\MazeUnitTest.csprojResolveAssemblyReference.cache
+C:\Users\Lolu\Documents\Visual Studio 2017\Projects\MazeSolution_TDD\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+C:\Users\Lolu\Documents\Visual Studio 2017\Projects\MazeSolution_TDD\UnitTestProject1\obj\Debug\UnitTestProject1.pdb

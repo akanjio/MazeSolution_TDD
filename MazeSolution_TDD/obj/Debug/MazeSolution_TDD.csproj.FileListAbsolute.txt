@@ -1,0 +1,5 @@
+C:\Users\Lolu\Documents\Visual Studio 2017\Projects\MazeSolution_TDD\MazeSolution_TDD\bin\Debug\MazeSolution_TDD.exe.config
+C:\Users\Lolu\Documents\Visual Studio 2017\Projects\MazeSolution_TDD\MazeSolution_TDD\bin\Debug\MazeSolution_TDD.exe
+C:\Users\Lolu\Documents\Visual Studio 2017\Projects\MazeSolution_TDD\MazeSolution_TDD\bin\Debug\MazeSolution_TDD.pdb
+C:\Users\Lolu\Documents\Visual Studio 2017\Projects\MazeSolution_TDD\MazeSolution_TDD\obj\Debug\MazeSolution_TDD.exe
+C:\Users\Lolu\Documents\Visual Studio 2017\Projects\MazeSolution_TDD\MazeSolution_TDD\obj\Debug\MazeSolution_TDD.pdb
